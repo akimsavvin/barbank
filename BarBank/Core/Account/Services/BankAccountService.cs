@@ -20,13 +20,13 @@ public class BankAccountService : IBankAccountService
     {
         const int DEFAULT_BALANCE = 0;
         var bankAccount = new BankAccount(Guid.NewGuid(), DEFAULT_BALANCE);
-        await _bankAccountRepository.Insert(userId, bankAccount);
+        await _bankAccountRepository.InsertAsync(userId, bankAccount);
         return bankAccount;
     }
 
     public async Task<BankTransaction> WithdrawAsync(Guid userId, Guid accountId, int amount) 
     {
-        var bankAccount = await _bankAccountRepository.GetOneByIdAndUserId(accountId, userId);
+        var bankAccount = await _bankAccountRepository.GetOneByIdAndUserIdAsync(accountId, userId);
         var transaction = bankAccount.Withdraw(amount);
         await _bankTransactionRepository.InsertAndApplyAsync(transaction);
         return transaction;
@@ -34,7 +34,7 @@ public class BankAccountService : IBankAccountService
 
     public async Task<BankTransaction> ReplenishAsync(Guid userId, Guid accountId, int amount) 
     {
-        var bankAccount = await _bankAccountRepository.GetOneByIdAndUserId(accountId, userId);
+        var bankAccount = await _bankAccountRepository.GetOneByIdAndUserIdAsync(accountId, userId);
         var transaction = bankAccount.Replenish(amount);
         await _bankTransactionRepository.InsertAndApplyAsync(transaction);
         return transaction;
@@ -42,8 +42,8 @@ public class BankAccountService : IBankAccountService
 
     public async Task<BankTransaction> TransferAsync(Guid userId, Guid fromId, Guid toId, int amount) 
     {
-        var fromAccount = await _bankAccountRepository.GetOneByIdAndUserId(fromId, userId);
-        var toAccount = await _bankAccountRepository.GetOneById(toId);
+        var fromAccount = await _bankAccountRepository.GetOneByIdAndUserIdAsync(fromId, userId);
+        var toAccount = await _bankAccountRepository.GetOneByIdAsync(toId);
         var transaction = fromAccount.Transfer(amount, toAccount);
         await _bankTransactionRepository.InsertAndApplyAsync(transaction);
         return transaction;

@@ -4,7 +4,7 @@ namespace BarBank.Core.Account.Storage;
 
 public interface IBankAccountRepository
 {
-    public Task Insert(Guid userId, BankAccount bankAccount);
-    public Task<BankAccount> GetOneById(Guid id);
-    public Task<BankAccount> GetOneByIdAndUserId(Guid id, Guid userId);
+    public Task InsertAsync(Guid userId, BankAccount bankAccount);
+    public Task<BankAccount> GetOneByIdAsync(Guid id);
+    public Task<BankAccount> GetOneByIdAndUserIdAsync(Guid id, Guid userId);
 }
