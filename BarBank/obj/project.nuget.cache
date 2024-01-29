@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VBLImZan4hJW/fcJi/MJH/dJanIGi2fjX9qH+C015ZjRt9PPIfJLczYDY6M5NwS/kghzNpT0Ely+QY1pvcUvBA==",
+  "dgSpecHash": "Aovx1uUSzF9rio3VR4/GMONEIOA/GwmPMhaEjTLFS9Y+qPxxYpnUL1ha3OScEIscgnqmgePAq64ZLFJYcwvpwg==",
   "success": true,
-  "projectFilePath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
+  "projectFilePath": "/Users/akimsavvin/Documents/projects/barbank/BarBank/BarBank.csproj",
   "expectedPackageFiles": [
     "/Users/akimsavvin/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/akimsavvin/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

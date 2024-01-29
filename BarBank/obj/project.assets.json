@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
+      "projectUniqueName": "/Users/akimsavvin/Documents/projects/barbank/BarBank/BarBank.csproj",
       "projectName": "BarBank",
-      "projectPath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
+      "projectPath": "/Users/akimsavvin/Documents/projects/barbank/BarBank/BarBank.csproj",
       "packagesPath": "/Users/akimsavvin/.nuget/packages/",
-      "outputPath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/obj/",
+      "outputPath": "/Users/akimsavvin/Documents/projects/barbank/BarBank/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/akimsavvin/.nuget/NuGet/NuGet.Config"
