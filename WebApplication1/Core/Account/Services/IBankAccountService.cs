@@ -1,5 +1,4 @@
-﻿using BarBank.Core.Account.Exceptions;
-using BarBank.Core.Account.Models;
+﻿using BarBank.Core.Account.Models;
 using BarBank.Core.Transaction.Models;
 
 namespace BarBank.Core.Account.Services;

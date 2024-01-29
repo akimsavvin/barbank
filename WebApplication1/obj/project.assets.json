@@ -428,32 +428,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xkadz\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/akimsavvin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\xkadz\\source\\repos\\WebApplication1\\WebApplication1\\BarBank.csproj",
+      "projectUniqueName": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
       "projectName": "BarBank",
-      "projectPath": "D:\\Users\\xkadz\\source\\repos\\WebApplication1\\WebApplication1\\BarBank.csproj",
-      "packagesPath": "C:\\Users\\xkadz\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\xkadz\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
+      "packagesPath": "/Users/akimsavvin/.nuget/packages/",
+      "outputPath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\xkadz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/akimsavvin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -496,7 +488,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

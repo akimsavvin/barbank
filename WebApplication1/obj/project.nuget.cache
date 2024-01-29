@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9f9O792esnrBWKcpJukOAYhbDya5I+gNwandoLRU9lYEHVFU4jNfcnMcvA7iQfsl4RDc8YxUptaLuKw34a+muA==",
+  "dgSpecHash": "VBLImZan4hJW/fcJi/MJH/dJanIGi2fjX9qH+C015ZjRt9PPIfJLczYDY6M5NwS/kghzNpT0Ely+QY1pvcUvBA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\xkadz\\source\\repos\\WebApplication1\\WebApplication1\\BarBank.csproj",
+  "projectFilePath": "/Users/akimsavvin/Documents/projects/barbank/WebApplication1/BarBank.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xkadz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\xkadz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\xkadz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\xkadz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\xkadz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\xkadz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/akimsavvin/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/akimsavvin/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/akimsavvin/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/akimsavvin/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/akimsavvin/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/akimsavvin/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
   "logs": []
 }
