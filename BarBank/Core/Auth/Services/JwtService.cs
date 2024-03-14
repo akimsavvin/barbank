@@ -34,4 +34,11 @@ public class JwtService : IJwtService
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+
+    public Guid GetSubFromJwt(string jwt)
+    {
+        var token = new JwtSecurityToken(jwt);
+        var sub = token.Claims.First(claim => claim.Type == ClaimTypes.NameIdentifier).Value;
+        return Guid.Parse(sub);
+    }
 }
